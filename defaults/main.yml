@@ -3,4 +3,4 @@
 #################
 ## Configuration
 
-ntp_servers: []
+ntp_servers: [ server 0.ubuntu.pool.ntp.org, server 1.ubuntu.pool.ntp.org, server 2.ubuntu.pool.ntp.org ,server 3.ubuntu.pool.ntp.org]
