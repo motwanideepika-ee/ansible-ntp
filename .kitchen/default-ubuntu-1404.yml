@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: "/Users/deepika/ee-work/dev/ansible_roles/ansible-ntp/.kitchen/kitchen-vagrant/kitchen-ansible-ntp-default-ubuntu-1404/.vagrant/machines/default/virtualbox/private_key"
+last_action: verify
+last_error: 

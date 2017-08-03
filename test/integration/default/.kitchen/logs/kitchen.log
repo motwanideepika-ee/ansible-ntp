@@ -1,0 +1,32 @@
+I, [2017-08-03T17:44:03.038472 #17351]  INFO -- Kitchen: -----> Starting Kitchen (v1.16.0)
+E, [2017-08-03T17:44:03.038815 #17351] ERROR -- Kitchen: ------Exception-------
+E, [2017-08-03T17:44:03.038840 #17351] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-08-03T17:44:03.038860 #17351] ERROR -- Kitchen: Message: Kitchen YAML file /Users/deepika/ee-work/dev/ansible_roles/ansible-ntp/test/integration/default/.kitchen.yml does not exist.
+E, [2017-08-03T17:44:03.038876 #17351] ERROR -- Kitchen: ----------------------
+E, [2017-08-03T17:44:03.038888 #17351] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-08-03T17:44:03.038899 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/loader/yaml.rb:71:in `read'
+E, [2017-08-03T17:44:03.038911 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:152:in `data'
+E, [2017-08-03T17:44:03.038922 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:131:in `suites'
+E, [2017-08-03T17:44:03.038933 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2017-08-03T17:44:03.038944 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-08-03T17:44:03.038957 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-08-03T17:44:03.038968 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-08-03T17:44:03.038979 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-08-03T17:44:03.038993 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2017-08-03T17:44:03.039007 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-08-03T17:44:03.039022 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/command/action.rb:34:in `call'
+E, [2017-08-03T17:44:03.039034 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-08-03T17:44:03.039045 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:187:in `block (2 levels) in <class:CLI>'
+E, [2017-08-03T17:44:03.039058 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-08-03T17:44:03.039075 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-08-03T17:44:03.039086 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-08-03T17:44:03.039097 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-08-03T17:44:03.039107 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-08-03T17:44:03.039118 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-08-03T17:44:03.039129 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-08-03T17:44:03.039140 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-08-03T17:44:03.039153 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/bin/kitchen:22:in `load'
+E, [2017-08-03T17:44:03.039179 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/bin/kitchen:22:in `<main>'
+E, [2017-08-03T17:44:03.039199 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+E, [2017-08-03T17:44:03.039212 #17351] ERROR -- Kitchen: /Users/deepika/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+E, [2017-08-03T17:44:03.039223 #17351] ERROR -- Kitchen: ----End Backtrace-----
