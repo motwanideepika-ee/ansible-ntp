@@ -5,12 +5,6 @@
     name: ntp
     update_cache: yes
 
-- name: Remove existing conf file
-  file: 
-    path: /etc/ntp.conf
-    state: absent
-  when: "{{ ntp_servers }}" is defined   
-
 - name: Edit config file
   template: 
     src: ntp.conf.j2
@@ -18,7 +12,6 @@
     owner: root
     group: root
     mode: 0644
-  when: "{{ ntp_servers }}" is defined
 
 - name: Restart ntp
   service: 
