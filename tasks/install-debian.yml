@@ -3,7 +3,7 @@
 - name: Install ntp
   apt:
     name: ntp
-    update_cache: yes
+    state: present
 
 - name: Edit config file
   template: 
@@ -12,8 +12,4 @@
     owner: root
     group: root
     mode: 0644
-
-- name: Restart ntp
-  service: 
-    name: ntp
-    state: restarted
+  notify: Restart ntp
